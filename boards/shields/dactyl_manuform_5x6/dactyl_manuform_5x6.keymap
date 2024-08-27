@@ -20,7 +20,7 @@
 #define SV_QUOT  DOUBLE_QUOTES       // "
 #define SV_PLUS  EQUALS              // +
 #define SV_MINUS PLUS               // -
-#define SV_SCLN  RA(COMMA)        // ; on AltGr + ,
+#define SV_SEMI  RA(COMMA)        // ; on AltGr + ,
 #define SV_COLN  RA(PERIOD)       // : on AltGr + .
 #define SV_UNDS  UNDERSCORE          // _
 #define SV_COMM  COMMA               // ,
