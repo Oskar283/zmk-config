@@ -72,7 +72,7 @@
                 &trans  &trans   &trans &trans   &trans     &trans                &trans    &trans   &trans   &trans    &trans    &trans
                 &trans  &kp 1    &kp 2  &kp 3    &kp 4      &kp 5                 &kp 6     &kp 7    &kp 8    &kp 9     &kp 0     &kp SV_AA
                 &kp TILDE  &kp EXCL &kp AT &kp HASH &kp DOLLAR &kp PERCENT           &kp CARET &kp AMPS &kp STAR &kp EQUAL &kp SV_OE &kp SV_AE
-                &trans  &trans   &trans &trans   &trans     &trans                &trans    &trans   &kp LT   &kp GT    &QMARK    &kp PLUS
+                &trans  &trans   &trans &trans   &trans     &trans                &trans    &trans   &kp LT   &kp GT    &kp QMARK    &kp PLUS
                                  &trans &trans                                                       &trans   &trans
                                              &mo ADJ &trans               &trans &trans
                                              &trans  &trans               &trans &trans
