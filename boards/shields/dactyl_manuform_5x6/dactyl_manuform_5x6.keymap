@@ -13,12 +13,13 @@
 #define ADJ 3
 
 // Swedish keymap
+
 #define SV_AE    SEMICOLON           // Æ
 #define SV_OE    SINGLE_QUOTE        // Ø
 #define SV_AA    LEFT_BRACKET        // Å
 #define SV_QUOT  DOUBLE_QUOTES       // "
 #define SV_PLUS  EQUALS              // +
-#define SV_MINS  MINUS               // -
+#define SV_MINUS PLUS               // -
 #define SV_SCLN  RA(COMMA)        // ; on AltGr + ,
 #define SV_COLN  RA(PERIOD)       // : on AltGr + .
 #define SV_UNDS  UNDERSCORE          // _
@@ -44,11 +45,6 @@
 #define SV_DQUO  SHIFT(N2)       // " on Shift + 2
 
 
-
-
-
-
-
 / {
 
     keymap {
@@ -57,8 +53,8 @@
         default_layer {
             bindings = <
                 &kp ESC   &kp F1 &kp F2     &kp F3      &kp F4       &kp F5              &kp F6 &kp F7       &kp F8      &kp F9       &kp F10   &kp F11
-                &kp TAB   &kp Q  &kp W      &kp F       &kp P        &kp B               &kp J  &kp L        &kp U       &kp Y        &kp SEMI &kp MINUS
-                &kp ESC   &kp A  &mt LALT R &mt LSHFT S &mt LCTRL T  &kp G               &kp M  &mt LCTRL N  &mt LSHFT E &mt LALT I   &kp O    &kp SQT
+                &kp TAB   &kp Q  &kp W      &kp F       &kp P        &kp B               &kp J  &kp L        &kp U       &kp Y        &kp SV_SEMI &kp MINUS
+                &kp ESC   &kp A  &mt LALT R &mt LSHFT S &mt LCTRL T  &kp G               &kp M  &mt LCTRL N  &mt LSHFT E &mt LALT I   &kp O    &kp SV_QUOT
                 &kp BSLH  &kp Z  &kp X      &kp C       &kp D        &kp V               &kp K  &kp H        &kp COMMA   &kp DOT      &kp FSLH &kp DQT
                                  &kp SV_LBKT   &kp SV_RBKT                                                         &kp LPAR    &kp RPAR
                                                          &mo NAV  &kp SPACE                   &kp BSPC &mt SYM ENTER
