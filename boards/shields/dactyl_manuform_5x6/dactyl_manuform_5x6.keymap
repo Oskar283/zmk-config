@@ -20,8 +20,8 @@
 #define SV_QUOT  DOUBLE_QUOTES       // "
 #define SV_PLUS  EQUALS              // +
 #define SV_MINUS PLUS               // -
-#define SV_SEMI  SHIFT(COMMA)        // ; on AltGr + ,
-#define SV_COLN  SHIFT(PERIOD)       // : on AltGr + .
+#define SV_SEMI  LS(COMMA)        // ; on AltGr + ,
+#define SV_COLN  LS(PERIOD)       // : on AltGr + .
 #define SV_UNDS  UNDERSCORE          // _
 #define SV_COMM  COMMA               // ,
 #define SV_DOT   PERIOD              // .
@@ -38,11 +38,11 @@
 #define SV_LBKT  RA(N8)       // [ on AltGr + 8
 #define SV_RBKT  RA(N9)       // ] on AltGr + 9
 #define SV_BSLS  RA(MINUS)        // \ on AltGr + -
-#define SV_LESS  SHIFT(COMMA)        // < on Shift + ,
-#define SV_GRTR  SHIFT(PERIOD)       // > on Shift + .
-#define SV_QUES  SHIFT(MINUS)        // ? on Shift + -
-#define SV_EXLM  SHIFT(N1)       // ! on Shift + 1
-#define SV_DQUO  SHIFT(N2)       // " on Shift + 2
+#define SV_LESS  LS(COMMA)        // < on Shift + ,
+#define SV_GRTR  LS(PERIOD)       // > on Shift + .
+#define SV_QUES  LS(MINUS)        // ? on Shift + -
+#define SV_EXLM  LS(N1)       // ! on Shift + 1
+#define SV_DQUO  LS(N2)       // " on Shift + 2
 
 
 / {
