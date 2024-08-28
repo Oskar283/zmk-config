@@ -52,10 +52,10 @@
 
         default_layer {
             bindings = <
-                &kp ESC   &kp F1 &kp F2     &kp F3      &kp F4       &kp F5              &kp F6 &kp F7       &kp F8      &kp F9       &kp F10   &kp F11
-                &kp TAB   &kp Q  &kp W      &kp F       &kp P        &kp B               &kp J  &kp L        &kp U       &kp Y        &kp SV_SEMI &kp SV_PLUS
-                &kp ESC   &kp A  &mt LALT R &mt LSHFT S &mt LCTRL T  &kp G               &kp M  &mt LCTRL N  &mt LSHFT E &mt LALT I   &kp O    &kp SV_QUOT
-                &kp BSLH  &kp Z  &kp X      &kp C       &kp D        &kp V               &kp K  &kp H        &kp COMMA   &kp DOT      &kp FSLH &kp DQT
+                &kp ESC   &kp F1 &kp F2     &kp F3      &kp F4       &kp F5              &kp F6 &kp F7       &kp F8      &kp F9       &kp F10     &kp F11
+                &kp TAB   &kp Q  &kp W      &kp F       &kp P        &kp B               &kp J  &kp L        &kp U       &kp Y        &kp SEMI &kp PLUS
+                &kp ESC   &kp A  &mt LALT R &mt LSHFT S &mt LCTRL T  &kp G               &kp M  &mt LCTRL N  &mt LSHFT E &mt LALT I   &kp O      &kp SV_QUOT
+                &kp BSLH  &kp Z  &kp X      &kp C       &kp D        &kp V               &kp K  &kp H        &kp COMMA   &kp DOT      &kp FSLH   &kp DQT
                                  &kp SV_LBKT   &kp SV_RBKT                                                         &kp LPAR    &kp RPAR
                                                          &mo NAV  &kp SPACE                   &kp BSPC &lt SYM ENTER
                                                          &kp N1   &kp HOME                    &kp END  &kp DEL
