@@ -50,7 +50,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-TTSS
         default_layer {
             bindings = <
                 &kp ESC   &kp F1 &kp F2     &kp F3      &kp F4       &kp F5              &kp F6 &kp F7       &kp F8      &kp F9       &kp F10   &kp F11
@@ -59,10 +58,6 @@ TTSS
                 &kp BSLH  &kp Z  &kp X      &kp C       &kp D        &kp V               &kp K  &kp H        &kp COMMA   &kp DOT      &kp FSLH &kp DQT
                                  &kp SV_LBKT   &kp SV_RBKT                                                         &kp LPAR    &kp RPAR
                                                          &mo NAV  &kp SPACE                   &kp BSPC &lt SYM ENTER
-                                                         oeo
-¸o
-
-
                                                          &kp N1   &kp HOME                    &kp END  &kp DEL
                                                          &kp BSPC &kp GRAVE                   &kp LGUI &kp LALT
             >;
