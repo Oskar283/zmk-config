@@ -125,8 +125,8 @@
 #define SE_DOLLAR  RA(SE_4)    // $
 #define SE_EURO RA(SE_5)    // €
 #define SE_LCBR RA(SE_7)    // {
-#define SE_LBRC RA(SE_8)    // [
-#define SE_RBRC RA(SE_9)    // ]
+#define SE_LBKT RA(SE_8)    // [
+#define SE_RBKT RA(SE_9)    // ]
 #define SE_RCBR RA(SE_0)    // }
 #define SE_BSLH RA(SE_PLUS) // (backslash)
 // Row 2
