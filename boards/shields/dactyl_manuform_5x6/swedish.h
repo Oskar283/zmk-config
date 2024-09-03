@@ -102,9 +102,9 @@
 #define SE_STAR SHIFT(SE_QUOT) // *
 // Row 4
 #define SE_GT SHIFT(SE_LT) // >
-#define SE_SEMI SHIFT(SE_COMM) // ;
+#define SE_SEMI SHIFT(SE_COMMA) // ;
 #define SE_COLON SHIFT(SE_DOT)  // :
-#define SE_UNDS SHIFT(SE_MINS) // _
+#define SE_UNDS SHIFT(SE_MINUS) // _
 
 /* AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
