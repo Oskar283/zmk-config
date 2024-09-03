@@ -87,7 +87,7 @@
 #define SE_EXCL SHIFT(SE_1)    // !
 #define SE_DQT SHIFT(SE_2)    // "
 #define SE_HASH SHIFT(SE_3)    // #
-#define SE_DOLLAR SHIFT(SE_4)    // ¤
+#define SE_CURR SHIFT(SE_4)    // ¤
 #define SE_PERCENT SHIFT(SE_5)    // %
 #define SE_AMPS SHIFT(SE_6)    // &
 #define SE_FSLH SHIFT(SE_7)    // /
