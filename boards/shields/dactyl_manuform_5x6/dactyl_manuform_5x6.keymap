@@ -22,23 +22,23 @@
         default_layer {
             bindings = <
                 &kp ESC   &kp F1 &kp F2     &kp F3      &kp F4       &kp F5              &kp F6 &kp F7       &kp F8      &kp F9       &kp F10     &kp F11
-                &kp TAB   &kp Q  &kp W      &kp F       &kp P        &kp B               &kp J  &kp L        &kp U       &kp Y        &kp SV_SEMI &kp SV_MINUS
-                &kp ESC   &kp A  &mt LALT R &mt LSHFT S &mt LCTRL T  &kp G               &kp M  &mt LCTRL N  &mt LSHFT E &mt LALT I   &kp O      &kp SV_QUOT
-                &kp SV_BSLH  &kp Z  &kp X      &kp C       &kp D        &kp V               &kp K  &kp H        &kp SV_COMMA   &kp SV_DOT      &kp FSLH &kp SV_DQT
-                                 &kp SV_LBKT   &kp SV_RBKT                                                         &kp SV_LPAR    &kp SV_RPAR
+                &kp TAB   &kp Q  &kp W      &kp F       &kp P        &kp B               &kp J  &kp L        &kp U       &kp Y        &kp SE_SEMI &kp SE_MINUS
+                &kp ESC   &kp A  &mt LALT R &mt LSHFT S &mt LCTRL T  &kp G               &kp M  &mt LCTRL N  &mt LSHFT E &mt LALT I   &kp O      &kp SE_QUOT
+                &kp SE_BSLH  &kp Z  &kp X      &kp C       &kp D        &kp V               &kp K  &kp H        &kp SE_COMMA   &kp SE_DOT      &kp SE_FSLH &kp SE_DQT
+                                 &kp SE_LPAR   &kp SE_RPAR                                                         &kp SE_LBKT    &kp SE_RBKT
                                                          &mo NAV  &kp SPACE                   &kp BSPC &lt SYM ENTER
                                                          &kp N1   &kp HOME                    &kp END  &kp DEL
-                                                         &kp BSPC &kp SV_GRAVE                   &kp LGUI &kp LALT
+                                                         &kp BSPC &kp SE_GRAVE                   &kp LGUI &kp LALT
             >;
         };
 
         sym_layer {
             bindings = <
                 &trans  &trans   &trans &trans   &trans     &trans                &trans    &trans   &trans   &trans    &trans    &trans
-                &trans  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                 &kp N6     &kp N7    &kp N8    &kp N9     &kp N0     &kp SV_AA
-                &kp SV_TILDE  &kp SV_EXCL &kp SV_AT &kp SV_HASH &kp SV_DOLLAR &kp SV_PERCENT           &kp SV_CARET &kp SV_AMPS &kp SV_STAR &kp SV_EQUAL &kp SV_OE &kp SV_AE
-                &trans  &trans   &trans &trans   &trans     &trans                &trans    &trans   &kp SV_LT   &kp SV_GT    &kp SV_QMARK    &kp SV_PLUS
-                                 &trans &trans                                                       &trans   &trans
+                &trans  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                 &kp N6     &kp N7    &kp N8    &kp N9     &kp N0     &kp SE_AA
+                &kp SE_TILDE  &kp SE_EXCL &kp SE_AT &kp SE_HASH &kp SE_DOLLAR &kp SE_PERCENT           &kp SE_CARET &kp SE_AMPS &kp SE_STAR &kp SE_EQUAL &kp SE_OE &kp SE_AE
+                &trans  &trans   &trans &trans   &trans     &trans                &trans    &trans   &kp SE_LT   &kp SE_GT    &kp SE_QMARK    &kp SE_PLUS
+                                 &kp SE_LT &kp SE_GT                                                       &kp SE_LCBR   &kp SE_RCBR
                                              &mo ADJ &trans               &trans &trans
                                              &trans  &trans               &trans &trans
                                              &trans  &trans               &trans &trans
@@ -51,7 +51,7 @@
                 &trans  &trans &trans &trans &trans &trans                &trans &trans  &trans   &trans &trans    &trans
                 &trans  &trans &trans &trans &trans &trans                &kp HOME &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp END
                 &trans  &trans &trans &trans &trans &trans                &trans &trans  &trans   &trans &trans    &trans
-                               &kp SV_LBRC &kp SV_RBRC                                         &trans   &trans
+                               &kp SE_LBRC &kp SE_RBRC                                         &trans   &trans
                                              &trans &trans                &trans &mo ADJ
                                              &trans &trans                &trans &trans
                                              &trans &trans                &trans &trans

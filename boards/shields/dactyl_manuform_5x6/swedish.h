@@ -57,7 +57,7 @@
 #define SE_AE SINGLE_QUOTE // Ä
 #define SE_QUOT NUHS // '
 // Row 4
-#define SE_LABK NUBS // <
+#define SE_LT NUBS // <
 #define SE_Z    Z    // Z
 #define SE_X    X    // X
 #define SE_C    C    // C
@@ -84,26 +84,26 @@
  */
 // Row 1
 #define SE_HALF SHIFT(SE_SECT) // ½
-#define SE_EXLM SHIFT(SE_1)    // !
-#define SE_DQUO SHIFT(SE_2)    // "
+#define SE_EXCL SHIFT(SE_1)    // !
+#define SE_DQT SHIFT(SE_2)    // "
 #define SE_HASH SHIFT(SE_3)    // #
-#define SE_CURR SHIFT(SE_4)    // ¤
-#define SE_PERC SHIFT(SE_5)    // %
-#define SE_AMPR SHIFT(SE_6)    // &
-#define SE_SLSH SHIFT(SE_7)    // /
-#define SE_LPRN SHIFT(SE_8)    // (
-#define SE_RPRN SHIFT(SE_9)    // )
-#define SE_EQL  SHIFT(SE_0)    // =
-#define SE_QUES SHIFT(SE_PLUS) // ?
-#define SE_GRV  SHIFT(SE_ACUT) // ` (dead)
+#define SE_DOLLAR SHIFT(SE_4)    // ¤
+#define SE_PERCENT SHIFT(SE_5)    // %
+#define SE_AMPS SHIFT(SE_6)    // &
+#define SE_FSLH SHIFT(SE_7)    // /
+#define SE_LPAR SHIFT(SE_8)    // (
+#define SE_RPAR SHIFT(SE_9)    // )
+#define SE_EQUAL  SHIFT(SE_0)    // =
+#define SE_QMARK SHIFT(SE_PLUS) // ?
+#define SE_GRAVE  SHIFT(SE_ACUT) // ` (dead)
 // Row 2
-#define SE_CIRC SHIFT(SE_DIAE) // ^ (dead)
+#define SE_CARET SHIFT(SE_DIAE) // ^ (dead)
 // Row 3
-#define SE_ASTR SHIFT(SE_QUOT) // *
+#define SE_STAR SHIFT(SE_QUOT) // *
 // Row 4
-#define SE_RABK SHIFT(SE_LABK) // >
-#define SE_SCLN SHIFT(SE_COMM) // ;
-#define SE_COLN SHIFT(SE_DOT)  // :
+#define SE_GT SHIFT(SE_LT) // >
+#define SE_SEMI SHIFT(SE_COMM) // ;
+#define SE_COLON SHIFT(SE_DOT)  // :
 #define SE_UNDS SHIFT(SE_MINS) // _
 
 /* AltGr symbols
@@ -122,13 +122,13 @@
 // Row 1
 #define SE_AT   RA(SE_2)    // @
 #define SE_PND  RA(SE_3)    // £
-#define SE_DLR  RA(SE_4)    // $
+#define SE_DOLLAR  RA(SE_4)    // $
 #define SE_EURO RA(SE_5)    // €
 #define SE_LCBR RA(SE_7)    // {
 #define SE_LBRC RA(SE_8)    // [
 #define SE_RBRC RA(SE_9)    // ]
 #define SE_RCBR RA(SE_0)    // }
-#define SE_BSLS RA(SE_PLUS) // (backslash)
+#define SE_BSLH RA(SE_PLUS) // (backslash)
 // Row 2
 #define SE_TILD RA(SE_DIAE) // ~ (dead)
 // Row 4
