@@ -130,7 +130,7 @@
 #define SE_RCBR RA(SE_0)    // }
 #define SE_BSLH RA(SE_PLUS) // (backslash)
 // Row 2
-#define SE_TILD RA(SE_DIAE) // ~ (dead)
+#define SE_TILDE RA(SE_DIAE) // ~ (dead)
 // Row 4
 #define SE_PIPE RA(SE_LABK) // |
 #define SE_MICR RA(SE_M)    // µ
