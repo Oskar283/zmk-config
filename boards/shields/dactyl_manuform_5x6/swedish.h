@@ -83,28 +83,28 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define SE_HALF SHIFT(SE_SECT) // ½
-#define SE_EXCL SHIFT(SE_1)    // !
-#define SE_DQT SHIFT(SE_2)    // "
-#define SE_HASH SHIFT(SE_3)    // #
-#define SE_CURR SHIFT(SE_4)    // ¤
-#define SE_PERCENT SHIFT(SE_5)    // %
-#define SE_AMPS SHIFT(SE_6)    // &
-#define SE_FSLH SHIFT(SE_7)    // /
-#define SE_LPAR SHIFT(SE_8)    // (
-#define SE_RPAR SHIFT(SE_9)    // )
-#define SE_EQUAL  SHIFT(SE_0)    // =
-#define SE_QMARK SHIFT(SE_PLUS) // ?
-#define SE_GRAVE  SHIFT(SE_ACUT) // ` (dead)
+#define SE_HALF LSHIFT(SE_SECT) // ½
+#define SE_EXCL LSHIFT(SE_1)    // !
+#define SE_DQT LSHIFT(SE_2)    // "
+#define SE_HASH LSHIFT(SE_3)    // #
+#define SE_CURR LSHIFT(SE_4)    // ¤
+#define SE_PERCENT LSHIFT(SE_5)    // %
+#define SE_AMPS LSHIFT(SE_6)    // &
+#define SE_FSLH LSHIFT(SE_7)    // /
+#define SE_LPAR LSHIFT(SE_8)    // (
+#define SE_RPAR LSHIFT(SE_9)    // )
+#define SE_EQUAL  LSHIFT(SE_0)    // =
+#define SE_QMARK LSHIFT(SE_PLUS) // ?
+#define SE_GRAVE  LSHIFT(SE_ACUT) // ` (dead)
 // Row 2
-#define SE_CARET SHIFT(SE_DIAE) // ^ (dead)
+#define SE_CARET LSHIFT(SE_DIAE) // ^ (dead)
 // Row 3
-#define SE_STAR SHIFT(SE_QUOT) // *
+#define SE_STAR LSHIFT(SE_QUOT) // *
 // Row 4
-#define SE_GT SHIFT(SE_LT) // >
-#define SE_SEMI SHIFT(SE_COMMA) // ;
-#define SE_COLON SHIFT(SE_DOT)  // :
-#define SE_UNDS SHIFT(SE_MINUS) // _
+#define SE_GT LSHIFT(SE_LT) // >
+#define SE_SEMI LSHIFT(SE_COMMA) // ;
+#define SE_COLON LSHIFT(SE_DOT)  // :
+#define SE_UNDS LSHIFT(SE_MINUS) // _
 
 /* AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
