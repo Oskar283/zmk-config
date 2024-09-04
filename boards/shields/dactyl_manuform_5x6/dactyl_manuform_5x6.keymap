@@ -51,7 +51,7 @@
                 &trans  &trans &trans &trans &trans &trans                &trans &trans  &trans   &trans &trans    &trans
                 &trans  &trans &trans &trans &trans &trans                &kp HOME &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp END
                 &trans  &trans &trans &trans &trans &trans                &trans &trans  &trans   &trans &trans    &trans
-                               &kp SE_LBRC &kp SE_RBRC                                         &trans   &trans
+                               &kp SE_LT &kp SE_GT                                         &trans   &trans
                                              &trans &trans                &trans &mo ADJ
                                              &trans &trans                &trans &trans
                                              &trans &trans                &trans &trans
