@@ -1,4 +1,3 @@
-
 #pragma once
 
 // clang-format off
@@ -102,7 +101,7 @@
 #define SE_STAR LSHIFT(SE_QUOT) // *
 // Row 4
 #define SE_GT LSHIFT(SE_LT) // >
-#define SE_SEMI LSHIFT(SE_COMMA) // ;
+#define SE_SEMI LSHIFT(COMMA) // ;
 #define SE_COLON LSHIFT(SE_DOT)  // :
 #define SE_UNDS LSHIFT(SE_MINUS) // _
 
