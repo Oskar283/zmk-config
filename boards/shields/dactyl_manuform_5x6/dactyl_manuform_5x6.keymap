@@ -2,7 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/ext_power.h>
 
 // Linux OS
 #define HOST_OS 1
@@ -28,8 +27,8 @@
                 &kp SE_BSLH  &kp Z  &kp X      &kp C       &kp D        &kp V               &kp K  &kp H        &kp SE_COMMA &kp SE_DOT   &kp SE_FSLH &kp SE_DQT
                                  &kp SE_LPAR   &kp SE_RPAR                                                      &kp SE_LBKT    &kp SE_RBKT
                                                          &mo NAV  &kp SPACE                   &kp BSPC &lt SYM ENTER
-                                                         &kp N1   &kp HOME                    &kp END  &kp DEL
-                                                         &kp BSPC &kp SE_GRAVE                &kp LGUI &kp LALT
+                                                         &trans   &trans                      &trans   &trans
+                                                         &trans   &trans                      &trans   &trans
             >;
         };
 
