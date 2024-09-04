@@ -37,7 +37,7 @@
                 &trans       &trans      &trans    &trans      &trans        &trans         &trans       &trans      &trans      &trans       &trans       &trans
                 &trans       &kp N1      &kp N2    &kp N3      &kp N4        &kp N5         &kp N6       &kp N7      &kp N8      &kp N9       &kp N0       &kp SE_AA
                 &kp SE_TILDE &kp SE_EXCL &kp SE_AT &kp SE_HASH &kp SE_DOLLAR &kp SE_PERCENT &kp SE_CARET &kp SE_AMPS &kp SE_STAR &kp SE_EQUAL &kp SE_OE    &kp SE_AE
-                &trans       &trans      &tran     &trans      &trans        &trans         &trans       &trans      &kp SE_LT   &kp SE_GT    &kp SE_QMARK &kp SE_PLUS
+                &trans       &trans      &trans     &trans      &trans        &trans         &trans       &trans      &kp SE_LT   &kp SE_GT    &kp SE_QMARK &kp SE_PLUS
                                  &kp SE_LT &kp SE_GT                                                                 &kp SE_LCBR &kp SE_RCBR
                                              &mo ADJ &trans                                   &trans &trans
                                              &trans  &trans                                   &trans &trans
