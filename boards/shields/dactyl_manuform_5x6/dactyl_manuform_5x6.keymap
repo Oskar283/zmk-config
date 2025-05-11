@@ -28,7 +28,7 @@
                                &kp SE_LPAR   &kp SE_RPAR                                                      &kp SE_LBKT   &kp SE_RBKT
                                                          &mo NAV  &kp SPACE                &kp BSPC &lt SYM ENTER
                                                          &kp N1   &kp HOME                 &kp END  &kp DEL
-                                                         &kp BSPC &kp SE_GRAVE             &kp LGUI &kp LALT &trans &trans
+                                                         &kp BSPC &kp SE_GRAVE             &kp LGUI &kp LALT
             >;
         };
 
